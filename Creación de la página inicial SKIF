@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SKIF Ecuador</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #000;
+        }
+        header {
+            background-color: #E60012; /* Rojo de SKIF */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        #inicio {
+            background-color: #f9f9f9;
+        }
+        #nosotros {
+            background-color: #ffffff; /* Blanco */
+        }
+        #eventos {
+            background-color: #e6e6e6; /* Gris */
+        }
+        #contacto {
+            background-color: #000; /* Negro */
+            color: white;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SHOTOKAN KARATE-DO INTERNATIONAL FEDERATION</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#eventos">Eventos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a SKIF Ecuador</h2>
+        <p>Somos la federación oficial de Shotokan Karate-Do en Ecuador. Explora nuestras secciones.</p>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>La SKIF Ecuador representa la tradición del Karate-Do Shotokan en todo el país.</p>
+    </section>
+
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <p>Próximos torneos, seminarios y actividades en todo Ecuador.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Escríbenos a info@skifecuador.com</p>
+    </section>
+</body>
+</html>
